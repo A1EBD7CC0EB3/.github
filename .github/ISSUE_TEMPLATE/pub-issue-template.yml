@@ -1,0 +1,16 @@
+name: (pub) issue template
+description: issue template
+title: "[ISSUE]: "
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        something
+  - type: input
+    attributes:
+      label: issue
+      description: What is your issue
+      placeholder: some text here
+    validations:
+      required: true
